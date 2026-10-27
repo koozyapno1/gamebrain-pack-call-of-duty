@@ -1,0 +1,773 @@
+{
+ "game": "CALL OF DUTY COMMAND CENTRE",
+ "subtitle": "Modern Warfare 4 - Multiplayer, Warzone & DMZ",
+ "sources": {
+  "reference": [
+   "callofduty.com/blog (MW4 maps & modes)",
+   "callofduty.com/patchnotes (launch notes)"
+  ],
+  "videos": "Real YouTube guide videos, harvested with yt-dlp on gpu-server (Oct 2026). Video titles, authors and links are the original creators'."
+ },
+ "entities": [
+  {
+   "name": "Multiplayer",
+   "kind": "Mode",
+   "description": "MW4's core 6v6 and larger-scale competitive modes.",
+   "tips": [
+    "Six Core 6v6 maps ship at launch, each with a distinct identity and a custom infil.",
+    "Respawn modes: Team Deathmatch, Domination, Hardpoint, Kill Confirmed, Free-for-All, Counter Attack, Inflation, Hijack.",
+    "Round-based: Search & Destroy, Gunfight and Gunfight 10v10.",
+    "Ground War: Combat Outpost plus other large-scale modes.",
+    "Party modes: Gun Game and Drop Zone.",
+    "Every mode has a Hardcore variant - limited HUD, friendly fire, reduced health and no regeneration."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "Hw4avRA3nmE",
+    "5L48ScoonvA",
+    "_UJqDCtb9lI"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "multiplayer",
+    "mp",
+    "multiplayer modes",
+    "modes",
+    "6v6",
+    "core maps",
+    "hardcore"
+   ]
+  },
+  {
+   "name": "Warzone",
+   "kind": "Mode",
+   "description": "The free-to-play battle royale. Zombies were removed in Season 1 of MW4 and the map is now Verdansk-style rotation.",
+   "tips": [
+    "Season 1 added Zodiac - a new Resurgence map built by Beenox.",
+    "The DMZ map Hajin also arrives in Battle Royale as a Warzone map.",
+    "Resurgence brings eliminated players back fast - play aggressively early.",
+    "Contract objectives (Bounty, Scavenger, Upload Intel) pay out and mark your position - take them when you are grouped.",
+    "Keep a gas mask for the endgame gas - or plan to rotate away before it closes."
+   ],
+   "difficulty": "High",
+   "videos": [
+    "kHheI5hL0K4",
+    "1ItjrUUTwbs",
+    "l7MGGyPlPYw"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "warzone",
+    "wz",
+    "battle royale",
+    "resurgence",
+    "zodiac",
+    "verdansk",
+    "wz map"
+   ]
+  },
+  {
+   "name": "DMZ",
+   "kind": "Mode",
+   "description": "The extraction mode on the Hajin map. Deploy solo or with a squad, recover tech, extract.",
+   "tips": [
+    "Every deployment is a new run - loot, fight, negotiate, betray, extract.",
+    "You lose everything you carry if you die and fail to extract.",
+    "The exclusion zone shifts - weather, dynamic objectives and hostile forces change.",
+    "Keys open locked rooms and safes; the intel you carry is the objective.",
+    "Squad up - the extraction points are safer with a team covering each other."
+   ],
+   "difficulty": "High",
+   "videos": [
+    "5L48ScoonvA",
+    "8O2K1EpsXnw",
+    "W_h3i8eTiJM"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "dmz",
+    "extraction",
+    "extraction mode",
+    "hajin",
+    "dmz map"
+   ]
+  },
+  {
+   "name": "Campaign",
+   "kind": "Mode",
+   "description": "The single-player story. Price is on the run, conflict on the Korean Peninsula, a weapon of war about to fall into the wrong hands.",
+   "tips": [
+    "Follow Price through the campaign - the story is about the weapon and who controls it.",
+    "Modern Warfare 4 campaign is built for replay - collectibles and intel rewards.",
+    "Play on a difficulty where you can learn the mechanics before the story stakes pile up.",
+    "The campaign and multiplayer share weapons, so the two reinforce each other."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "iUbr6HbJWP8",
+    "5L48ScoonvA",
+    "zPaaCvVUp-g"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "campaign",
+    "story",
+    "price",
+    "campaign story",
+    "single player"
+   ]
+  },
+  {
+   "name": "Classes",
+   "kind": "Mechanic",
+   "description": "Create-a-Class loadouts and Warzone 6 build.",
+   "tips": [
+    "A class is a primary weapon, a secondary, lethal, tactical, perk and field upgrade.",
+    "In Warzone use the 6-slot build - one primary, one secondary, two lethal, one tactical and a field upgrade.",
+    "Keep the perks that match your range: overkill and fast hands for close, commando and scavenger for mid.",
+    "Field upgrades are the most important choice - tendril, shock mine and thermite change how a fight is won.",
+    "Do not over-invest in one class - swap for the situation."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "Z7_o4WrB2NE",
+    "KCySWaamac8",
+    "csSj5vMh3YU"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "classes",
+    "class",
+    "loadout",
+    "loadouts",
+    "create a class",
+    "perks",
+    "field upgrade",
+    "build"
+   ]
+  },
+  {
+   "name": "Maps",
+   "kind": "Map",
+   "description": "The 20 launch maps across three scales.",
+   "tips": [
+    "Core 6v6: Cachette, Coal, Lithium, Lotus, Mumbai, Munition, Nautical, Reactor U92, Rooftops, Sentry, Silkworm, Transit 213.",
+    "Ground War 32v32: Imjin Farmland, Wolves Stadium, Forest.",
+    "Gunfight 2v2: Cafe, Library, NYC, Smuggler.",
+    "Kill Block is a modular live-fire training facility that reconfigures before every match - supports 3v3 and 10v10 Gunfight at launch.",
+    "Every map has its own infil and sightlines - learn the spawn side first."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "gOM89ZzOtzs",
+    "M0XX9yGiRpc",
+    "cAMZBKR_MXc"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "maps",
+    "map",
+    "map list",
+    "kill block",
+    "gunfight maps",
+    "ground war maps",
+    "core 6v6 maps"
+   ]
+  },
+  {
+   "name": "Weapons",
+   "kind": "Weapon",
+   "description": "33 weapons at launch, split into assault rifles, SMGs, shotguns, LMGs, sniper rifles and shotguns.",
+   "tips": [
+    "The gun you pick decides your range - do not carry a shotgun into a long fight.",
+    "Full-auto is forgiving; if the gun has a burst mode, learn it.",
+    "Recoil control matters more than the gun - the same rifle kills with the same pattern.",
+    "LMGs trade mobility for sustained fire - they dominate long sightlines.",
+    "Aim assist on controller is strong at close range - use it and stop fighting it."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "KCySWaamac8",
+    "druxml3viR0",
+    "csSj5vMh3YU"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "weapons",
+    "weapon",
+    "gun",
+    "guns",
+    "gun meta",
+    "best gun"
+   ]
+  },
+  {
+   "name": "Settings",
+   "kind": "Mechanic",
+   "description": "Best controller and PC settings for MW4.",
+   "tips": [
+    "Set your aim assist to the default - the game is tuned for it.",
+    "Use the largest field of view that still shows enemies comfortably.",
+    "Lower the aim assist strength if you overshoot on aim.",
+    "On PC, prioritise mouse sensitivity and raw input over graphics settings.",
+    "Turn off motion blur and film grain - they hide enemies at range."
+   ],
+   "difficulty": "Low",
+   "videos": [
+    "cNMsSYznaA0",
+    "sY0oLY-ct0M",
+    "UDEFRek9lto"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "settings",
+    "controller settings",
+    "best settings",
+    "aim assist",
+    "fov",
+    "field of view",
+    "sensitivity"
+   ]
+  }
+ ],
+ "tips": [
+  {
+   "topic": "Multiplayer",
+   "detail": "1. Six Core 6v6 maps ship at launch, each with a distinct identity and a custom infil.",
+   "step": 1
+  },
+  {
+   "topic": "Multiplayer",
+   "detail": "2. Respawn modes: Team Deathmatch, Domination, Hardpoint, Kill Confirmed, Free-for-All, Counter Attack, Inflation, Hijack.",
+   "step": 2
+  },
+  {
+   "topic": "Multiplayer",
+   "detail": "3. Round-based: Search & Destroy, Gunfight and Gunfight 10v10.",
+   "step": 3
+  },
+  {
+   "topic": "Multiplayer",
+   "detail": "4. Ground War: Combat Outpost plus other large-scale modes.",
+   "step": 4
+  },
+  {
+   "topic": "Multiplayer",
+   "detail": "5. Party modes: Gun Game and Drop Zone.",
+   "step": 5
+  },
+  {
+   "topic": "Multiplayer",
+   "detail": "6. Every mode has a Hardcore variant - limited HUD, friendly fire, reduced health and no regeneration.",
+   "step": 6
+  },
+  {
+   "topic": "Warzone",
+   "detail": "1. Season 1 added Zodiac - a new Resurgence map built by Beenox.",
+   "step": 1
+  },
+  {
+   "topic": "Warzone",
+   "detail": "2. The DMZ map Hajin also arrives in Battle Royale as a Warzone map.",
+   "step": 2
+  },
+  {
+   "topic": "Warzone",
+   "detail": "3. Resurgence brings eliminated players back fast - play aggressively early.",
+   "step": 3
+  },
+  {
+   "topic": "Warzone",
+   "detail": "4. Contract objectives (Bounty, Scavenger, Upload Intel) pay out and mark your position - take them when you are grouped.",
+   "step": 4
+  },
+  {
+   "topic": "Warzone",
+   "detail": "5. Keep a gas mask for the endgame gas - or plan to rotate away before it closes.",
+   "step": 5
+  },
+  {
+   "topic": "DMZ",
+   "detail": "1. Every deployment is a new run - loot, fight, negotiate, betray, extract.",
+   "step": 1
+  },
+  {
+   "topic": "DMZ",
+   "detail": "2. You lose everything you carry if you die and fail to extract.",
+   "step": 2
+  },
+  {
+   "topic": "DMZ",
+   "detail": "3. The exclusion zone shifts - weather, dynamic objectives and hostile forces change.",
+   "step": 3
+  },
+  {
+   "topic": "DMZ",
+   "detail": "4. Keys open locked rooms and safes; the intel you carry is the objective.",
+   "step": 4
+  },
+  {
+   "topic": "DMZ",
+   "detail": "5. Squad up - the extraction points are safer with a team covering each other.",
+   "step": 5
+  },
+  {
+   "topic": "Campaign",
+   "detail": "1. Follow Price through the campaign - the story is about the weapon and who controls it.",
+   "step": 1
+  },
+  {
+   "topic": "Campaign",
+   "detail": "2. Modern Warfare 4 campaign is built for replay - collectibles and intel rewards.",
+   "step": 2
+  },
+  {
+   "topic": "Campaign",
+   "detail": "3. Play on a difficulty where you can learn the mechanics before the story stakes pile up.",
+   "step": 3
+  },
+  {
+   "topic": "Campaign",
+   "detail": "4. The campaign and multiplayer share weapons, so the two reinforce each other.",
+   "step": 4
+  },
+  {
+   "topic": "Classes",
+   "detail": "1. A class is a primary weapon, a secondary, lethal, tactical, perk and field upgrade.",
+   "step": 1
+  },
+  {
+   "topic": "Classes",
+   "detail": "2. In Warzone use the 6-slot build - one primary, one secondary, two lethal, one tactical and a field upgrade.",
+   "step": 2
+  },
+  {
+   "topic": "Classes",
+   "detail": "3. Keep the perks that match your range: overkill and fast hands for close, commando and scavenger for mid.",
+   "step": 3
+  },
+  {
+   "topic": "Classes",
+   "detail": "4. Field upgrades are the most important choice - tendril, shock mine and thermite change how a fight is won.",
+   "step": 4
+  },
+  {
+   "topic": "Classes",
+   "detail": "5. Do not over-invest in one class - swap for the situation.",
+   "step": 5
+  },
+  {
+   "topic": "Maps",
+   "detail": "1. Core 6v6: Cachette, Coal, Lithium, Lotus, Mumbai, Munition, Nautical, Reactor U92, Rooftops, Sentry, Silkworm, Transit 213.",
+   "step": 1
+  },
+  {
+   "topic": "Maps",
+   "detail": "2. Ground War 32v32: Imjin Farmland, Wolves Stadium, Forest.",
+   "step": 2
+  },
+  {
+   "topic": "Maps",
+   "detail": "3. Gunfight 2v2: Cafe, Library, NYC, Smuggler.",
+   "step": 3
+  },
+  {
+   "topic": "Maps",
+   "detail": "4. Kill Block is a modular live-fire training facility that reconfigures before every match - supports 3v3 and 10v10 Gunfight at launch.",
+   "step": 4
+  },
+  {
+   "topic": "Maps",
+   "detail": "5. Every map has its own infil and sightlines - learn the spawn side first.",
+   "step": 5
+  },
+  {
+   "topic": "Weapons",
+   "detail": "1. The gun you pick decides your range - do not carry a shotgun into a long fight.",
+   "step": 1
+  },
+  {
+   "topic": "Weapons",
+   "detail": "2. Full-auto is forgiving; if the gun has a burst mode, learn it.",
+   "step": 2
+  },
+  {
+   "topic": "Weapons",
+   "detail": "3. Recoil control matters more than the gun - the same rifle kills with the same pattern.",
+   "step": 3
+  },
+  {
+   "topic": "Weapons",
+   "detail": "4. LMGs trade mobility for sustained fire - they dominate long sightlines.",
+   "step": 4
+  },
+  {
+   "topic": "Weapons",
+   "detail": "5. Aim assist on controller is strong at close range - use it and stop fighting it.",
+   "step": 5
+  },
+  {
+   "topic": "Settings",
+   "detail": "1. Set your aim assist to the default - the game is tuned for it.",
+   "step": 1
+  },
+  {
+   "topic": "Settings",
+   "detail": "2. Use the largest field of view that still shows enemies comfortably.",
+   "step": 2
+  },
+  {
+   "topic": "Settings",
+   "detail": "3. Lower the aim assist strength if you overshoot on aim.",
+   "step": 3
+  },
+  {
+   "topic": "Settings",
+   "detail": "4. On PC, prioritise mouse sensitivity and raw input over graphics settings.",
+   "step": 4
+  },
+  {
+   "topic": "Settings",
+   "detail": "5. Turn off motion blur and film grain - they hide enemies at range.",
+   "step": 5
+  }
+ ],
+ "videos": [
+  {
+   "id": "Hw4avRA3nmE",
+   "title": "Call of Duty Modern Warfare 4 - 8 Multiplayer Tips and Tricks",
+   "author": "IGN",
+   "url": "https://www.youtube.com/watch?v=Hw4avRA3nmE",
+   "scope": "Multiplayer guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Multiplayer"
+  },
+  {
+   "id": "5L48ScoonvA",
+   "title": "Call of Duty: Modern Warfare 4 - DMZ Beginner's Guide",
+   "author": "IGN",
+   "url": "https://www.youtube.com/watch?v=5L48ScoonvA",
+   "scope": "Multiplayer guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Multiplayer"
+  },
+  {
+   "id": "_UJqDCtb9lI",
+   "title": "Modern Warfare 4 DMZ: A Comprehensive Beginner's Guide to EVERYTHING You Should Know...",
+   "author": "Espresso",
+   "url": "https://www.youtube.com/watch?v=_UJqDCtb9lI",
+   "scope": "Multiplayer guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Multiplayer"
+  },
+  {
+   "id": "kHheI5hL0K4",
+   "title": "Warzone 2: Ultimate Beginners Guide & Best Tips",
+   "author": "Expel",
+   "url": "https://www.youtube.com/watch?v=kHheI5hL0K4",
+   "scope": "Warzone guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Warzone"
+  },
+  {
+   "id": "1ItjrUUTwbs",
+   "title": "11 Warzone Combat Tips to INSTANTLY Improve (BO7 Resurgence)",
+   "author": "Berger",
+   "url": "https://www.youtube.com/watch?v=1ItjrUUTwbs",
+   "scope": "Warzone guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Warzone"
+  },
+  {
+   "id": "l7MGGyPlPYw",
+   "title": "Warzone for Beginners: Everything You Need to Know!",
+   "author": "Fierce Uncle",
+   "url": "https://www.youtube.com/watch?v=l7MGGyPlPYw",
+   "scope": "Warzone guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Warzone"
+  },
+  {
+   "id": "5L48ScoonvA",
+   "title": "Call of Duty: Modern Warfare 4 - DMZ Beginner's Guide",
+   "author": "IGN",
+   "url": "https://www.youtube.com/watch?v=5L48ScoonvA",
+   "scope": "DMZ guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "DMZ"
+  },
+  {
+   "id": "8O2K1EpsXnw",
+   "title": "Modern Warfare 4 DMZ: 24 Things I Wish I Knew Sooner... (Tips, Tricks, Rewards & More)",
+   "author": "Espresso",
+   "url": "https://www.youtube.com/watch?v=8O2K1EpsXnw",
+   "scope": "DMZ guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "DMZ"
+  },
+  {
+   "id": "W_h3i8eTiJM",
+   "title": "MW4 \"DMZ\" ULTIMATE BEGINNERS GUIDE: EVERYTHING EXPLAINED! (How To Play DMZ)",
+   "author": "MrDalekJD",
+   "url": "https://www.youtube.com/watch?v=W_h3i8eTiJM",
+   "scope": "DMZ guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "DMZ"
+  },
+  {
+   "id": "iUbr6HbJWP8",
+   "title": "MODERN WARFARE 4 Campaign Gameplay Walkthrough FULL GAME (4K 60FPS)",
+   "author": "MrDalekJD",
+   "url": "https://www.youtube.com/watch?v=iUbr6HbJWP8",
+   "scope": "Campaign guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Campaign"
+  },
+  {
+   "id": "5L48ScoonvA",
+   "title": "Call of Duty: Modern Warfare 4 - DMZ Beginner's Guide",
+   "author": "IGN",
+   "url": "https://www.youtube.com/watch?v=5L48ScoonvA",
+   "scope": "Campaign guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Campaign"
+  },
+  {
+   "id": "zPaaCvVUp-g",
+   "title": "CALL OF DUTY MODERN WARFARE 4 Campaign Walkthrough Gameplay Part 1 - INTRO (FULL GAME)",
+   "author": "theRadBrad",
+   "url": "https://www.youtube.com/watch?v=zPaaCvVUp-g",
+   "scope": "Campaign guide",
+   "tags": [
+    "call-of-duty",
+    "mode"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Campaign"
+  },
+  {
+   "id": "Z7_o4WrB2NE",
+   "title": "Best Warzone Loadout For Beginners - NEW 2026 - Best Beginners Loadout - No Recoil - Easy To Use",
+   "author": "BillyCrock",
+   "url": "https://www.youtube.com/watch?v=Z7_o4WrB2NE",
+   "scope": "Classes guide",
+   "tags": [
+    "call-of-duty",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Classes"
+  },
+  {
+   "id": "KCySWaamac8",
+   "title": "Top 5 Meta Weapons to Use for Modern Warfare 4",
+   "author": "LunchTime",
+   "url": "https://www.youtube.com/watch?v=KCySWaamac8",
+   "scope": "Classes guide",
+   "tags": [
+    "call-of-duty",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Classes"
+  },
+  {
+   "id": "csSj5vMh3YU",
+   "title": "Modern Warfare 4: TOP 5 BEST CLASS SETUPS To Use! (MW4 META Weapons)",
+   "author": "WhosImmortal",
+   "url": "https://www.youtube.com/watch?v=csSj5vMh3YU",
+   "scope": "Classes guide",
+   "tags": [
+    "call-of-duty",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Classes"
+  },
+  {
+   "id": "gOM89ZzOtzs",
+   "title": "COD: Modern Warfare 4 - All 17 Multiplayer Maps Showcase & Origins",
+   "author": "ZelexFPS",
+   "url": "https://www.youtube.com/watch?v=gOM89ZzOtzs",
+   "scope": "Maps guide",
+   "tags": [
+    "call-of-duty",
+    "map"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Maps"
+  },
+  {
+   "id": "M0XX9yGiRpc",
+   "title": "My Honest Thoughts on the Modern Warfare 4 Multiplayer Maps... (ALL 16 MAPS REVEALED)",
+   "author": "XpertFusion",
+   "url": "https://www.youtube.com/watch?v=M0XX9yGiRpc",
+   "scope": "Maps guide",
+   "tags": [
+    "call-of-duty",
+    "map"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Maps"
+  },
+  {
+   "id": "cAMZBKR_MXc",
+   "title": "Modern Warfare 4 All Multiplayer Maps!",
+   "author": "CtigirsGaming",
+   "url": "https://www.youtube.com/watch?v=cAMZBKR_MXc",
+   "scope": "Maps guide",
+   "tags": [
+    "call-of-duty",
+    "map"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Maps"
+  },
+  {
+   "id": "KCySWaamac8",
+   "title": "Top 5 Meta Weapons to Use for Modern Warfare 4",
+   "author": "LunchTime",
+   "url": "https://www.youtube.com/watch?v=KCySWaamac8",
+   "scope": "Weapons guide",
+   "tags": [
+    "call-of-duty",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Weapons"
+  },
+  {
+   "id": "druxml3viR0",
+   "title": "New Top 5 Meta Loadouts in Modern Warfare 4! (MW4 Best Weapons)",
+   "author": "Chuck",
+   "url": "https://www.youtube.com/watch?v=druxml3viR0",
+   "scope": "Weapons guide",
+   "tags": [
+    "call-of-duty",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Weapons"
+  },
+  {
+   "id": "csSj5vMh3YU",
+   "title": "Modern Warfare 4: TOP 5 BEST CLASS SETUPS To Use! (MW4 META Weapons)",
+   "author": "WhosImmortal",
+   "url": "https://www.youtube.com/watch?v=csSj5vMh3YU",
+   "scope": "Weapons guide",
+   "tags": [
+    "call-of-duty",
+    "weapon"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Weapons"
+  },
+  {
+   "id": "cNMsSYznaA0",
+   "title": "NEW Best Settings For Modern Warfare 4 😍👑 (XBOX/PS4/PS5/PC)",
+   "author": "Zyro",
+   "url": "https://www.youtube.com/watch?v=cNMsSYznaA0",
+   "scope": "Settings guide",
+   "tags": [
+    "call-of-duty",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Settings"
+  },
+  {
+   "id": "sY0oLY-ct0M",
+   "title": "*NEW* ULTIMATE Controller Settings Guide in Modern Warfare 4! (MW4 Best Settings)",
+   "author": "Chuck",
+   "url": "https://www.youtube.com/watch?v=sY0oLY-ct0M",
+   "scope": "Settings guide",
+   "tags": [
+    "call-of-duty",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Settings"
+  },
+  {
+   "id": "UDEFRek9lto",
+   "title": "My Modern Warfare 4 Settings... (Havok MW4 Settings)",
+   "author": "Havok Live",
+   "url": "https://www.youtube.com/watch?v=UDEFRek9lto",
+   "scope": "Settings guide",
+   "tags": [
+    "call-of-duty",
+    "mechanic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Settings"
+  }
+ ]
+}

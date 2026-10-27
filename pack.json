@@ -1,0 +1,183 @@
+{
+ "id": "call-of-duty",
+ "name": "CALL OF DUTY COMMAND CENTRE",
+ "subtitle": "Modern Warfare 4 - Multiplayer, Warzone & DMZ",
+ "version": "1.0.0",
+ "kb": "kb.json",
+ "ui": {
+  "brand_title": "CALL OF DUTY COMMAND CENTRE",
+  "brand_subtitle": "Modern Warfare 4 - Multiplayer, Warzone & DMZ",
+  "grid_title": "Map Grid",
+  "grid_question": "What is in {sector}?",
+  "cols": 8,
+  "rows": 9
+ },
+ "quick_prompts": [
+  "What are the new modes in MW4?",
+  "Which maps are in the rotation?",
+  "How do I play DMZ?",
+  "What is the best loadout for Warzone?",
+  "What weapons should I use in MW4?"
+ ],
+ "known_facts": [
+  "Modern Warfare 4 launched with 20 Multiplayer maps: 12 Core 6v6, 3 Ground War 32v32, 4 Gunfight 2v2, and Kill Block.",
+  "MW4 launched with 33 weapons and 33 Operators.",
+  "Core 6v6 maps are Cachette, Coal, Lithium, Lotus, Mumbai, Munition, Nautical, Reactor U92, Rooftops, Sentry, Silkworm and Transit 213.",
+  "Ground War maps are Imjin Farmland, Wolves Stadium and Forest. Gunfight maps are Cafe, Library, NYC and Smuggler.",
+  "Two brand new modes at launch: Inflation and Hijack. Collateral adds a buy phase to Search & Destroy.",
+  "Warzone Season 1 added the Zodiac map (Resurgence) and brought the DMZ map Hajin into Battle Royale."
+ ],
+ "entity_words": [
+  "call of duty",
+  "cod",
+  "modern warfare",
+  "mw4",
+  "warzone",
+  "dmz",
+  "multiplayer",
+  "campaign",
+  "operator",
+  "loadout",
+  "gun",
+  "map",
+  "hijack",
+  "inflation",
+  "collateral",
+  "combat outpost",
+  "kill confirmed",
+  "hardpoint",
+  "search and destroy",
+  "aim assist",
+  "controller"
+ ],
+ "system_prompt": "You are the Call of Duty assistant covering Modern Warfare 4, Warzone and DMZ.\n\nRules:\n- ALWAYS use a tool. Never guess a map name, mode name, weapon or setting.\n- Quote the 'tips' field as ordered steps.\n- Include a video link from the 'videos' field whenever one is returned.\n- Say which mode or game a question belongs to when it is ambiguous.",
+ "tools": [
+  {
+   "name": "cod_guide",
+   "description": "Look up a Call of Duty topic (Multiplayer, Warzone, DMZ, Campaign, classes/loadouts, maps, weapons, settings). Returns what it is and step-by-step tips. ALWAYS use this instead of guessing a map or mode name.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic, e.g. 'Warzone' or 'maps'"
+     }
+    }
+   },
+   "match_words": [
+    "call of duty",
+    "cod",
+    "mw4",
+    "warzone",
+    "dmz",
+    "multiplayer",
+    "map"
+   ],
+   "query": {
+    "mode": "record",
+    "collection": "entities",
+    "match": "name",
+    "params": [
+     "topic"
+    ],
+    "include": [
+     "name",
+     "kind",
+     "description",
+     "tips",
+     "difficulty"
+    ]
+   }
+  },
+  {
+   "name": "cod_tips",
+   "description": "Get practical step-by-step Call of Duty tips for a topic. Return the steps as a numbered list.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "tips",
+    "advice",
+    "best way",
+    "how do i"
+   ],
+   "query": {
+    "mode": "search",
+    "collection": "tips",
+    "params": [
+     "topic"
+    ],
+    "fields": [
+     "topic",
+     "detail"
+    ],
+    "limit": 6
+   }
+  },
+  {
+   "name": "cod_videos",
+   "description": "Get YouTube guide videos for a Call of Duty topic (multiplayer, Warzone, DMZ, campaign, loadouts, maps, weapons, settings). ALWAYS include a video link from the 'videos' field in your answer.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "video",
+    "watch",
+    "youtube",
+    "show me"
+   ],
+   "query": {
+    "mode": "videos",
+    "params": [
+     "topic"
+    ],
+    "videos_collection": "videos",
+    "entities_collection": "entities",
+    "match": "name",
+    "video_entity_field": "entity"
+   }
+  }
+ ],
+ "ref_tabs": [
+  {
+   "id": "entities",
+   "label": "Topics",
+   "kind": "list",
+   "collection": "entities",
+   "fields": [
+    "name",
+    "kind",
+    "description",
+    "difficulty"
+   ]
+  },
+  {
+   "id": "tips",
+   "label": "Tips",
+   "kind": "list",
+   "collection": "tips",
+   "fields": [
+    "topic",
+    "detail"
+   ]
+  },
+  {
+   "id": "videos",
+   "label": "Videos",
+   "kind": "videos",
+   "collection": "videos"
+  }
+ ]
+}
